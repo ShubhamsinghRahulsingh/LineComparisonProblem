@@ -14,7 +14,7 @@ namespace LineComparisonProblem
         public double Calculate()
         {
             double length =Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2));
-            Console.WriteLine("Length of the line is- " + length);
+            Console.WriteLine("Length of line- " + length);
             return length;
         }
     }
