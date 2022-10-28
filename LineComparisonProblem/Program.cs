@@ -11,9 +11,9 @@ namespace LineComparisonProblem
             CalculateLength calculate2 = new CalculateLength(1, 2, 3, 4);
             double length2 = calculate2.Calculate();
             if (length1.Equals(length2))
-                Console.WriteLine("Both lines are equal");
+                Console.WriteLine("Both the lines are equal");
             else
-                Console.WriteLine("Both lines are not equal");
+                Console.WriteLine("Both the lines are not equal");
         }
     }
 }
